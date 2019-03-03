@@ -1,0 +1,32 @@
+bR 1 1 true
+bH 1 2
+bB 1 3
+bQ 5 8
+bK 1 5 true
+bB 1 6
+bH 1 7
+bR 1 8 true
+bP 2 1 true
+bP 2 2 true
+bP 2 3 true
+bP 2 4 true
+bP 2 5 true
+bP 2 6 true
+bP 2 7 true
+bP 2 8 true
+wP 7 1 true
+wP 7 2 true
+wP 7 3 true
+wP 5 4 true
+wP 7 5 true
+wP 7 6 true
+wP 7 7 true
+wP 7 8 true
+wR 8 1 true
+wH 8 2
+wB 8 3
+wK 8 4 true
+wQ 8 5
+wB 8 6
+wH 8 7
+wR 8 8 false

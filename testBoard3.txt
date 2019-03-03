@@ -1,0 +1,4 @@
+bP 7 1 true
+bK 8 2 true
+wP 2 7 true
+wK 2 8 true

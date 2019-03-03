@@ -1,0 +1,23 @@
+bP 2 2 true
+bP 2 4 true
+bP 2 6 true
+bP 2 8 true
+bQ 1 3
+bK 1 5 false
+bR 1 8 false
+wP 7 1 false
+wR 7 1 false
+wP 7 2 false
+wP 7 3 false
+wP 7 4 false
+wP 7 5 false
+wP 7 6 false
+wP 7 7 false
+wP 7 8 false
+wP 6 4 false
+wP 6 5 false
+wP 6 6 false
+wP 6 7 false
+wQ 4 4
+wK 8 4 false
+wK 8 8 true
