@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.6)  12 JAN 2018 08:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.6)  5 MAR 2019 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -238,52 +238,60 @@ e
 <imgs/ss_promo.png, id=1, 401.24907pt x 678.28406pt>
 File: imgs/ss_promo.png Graphic file (type png)
 <use imgs/ss_promo.png>
-Package pdftex.def Info: imgs/ss_promo.png  used on input line 42. on input lin
-e 42.
+Package pdftex.def Info: imgs/ss_promo.png  used on input line 40. on input lin
+e 40.
 Package pdftex.def Info: Requested size: 252.95398pt x 216.80693pt on input lin
-e 42.
+e 40.
 
-Overfull \hbox (0.95398pt too wide) in paragraph at lines 42--43
+Overfull \hbox (0.95398pt too wide) in paragraph at lines 40--41
  [][] 
  []
+
+
+LaTeX Warning: Reference `fig:piecepromo' on page 1 undefined on input line 49.
+
 
 [1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+LaTeX Warning: Reference `fig:helpcodes' on page 2 undefined on input line 53.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 <imgs/ss_helpcodes.png, id=10, 666.99188pt x 696.35156pt>
 File: imgs/ss_helpcodes.png Graphic file (type png)
 <use imgs/ss_helpcodes.png>
-Package pdftex.def Info: imgs/ss_helpcodes.png  used on input line 59. on input
- line 59.
+Package pdftex.def Info: imgs/ss_helpcodes.png  used on input line 57. on input
+ line 57.
 Package pdftex.def Info: Requested size: 252.94608pt x 216.80347pt on input lin
-e 59.
+e 57.
 
-Overfull \hbox (0.94608pt too wide) in paragraph at lines 59--60
+Overfull \hbox (0.94608pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
 [2 <./imgs/ss_promo.png> <./imgs/ss_helpcodes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 121.
+(Font)              <7> on input line 119.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 121.
+(Font)              <5> on input line 119.
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
@@ -300,27 +308,34 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
 
  []
 
-[5] (./chessReport.aux) ) 
+[5] (./chessReport.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2410 strings out of 494098
- 39079 string characters out of 6156762
- 103643 words of memory out of 5000000
+ 2411 strings out of 494098
+ 39085 string characters out of 6156762
+ 102627 words of memory out of 5000000
  5800 multiletter control sequences out of 15000+600000
- 30804 words of font info for 60 fonts, out of 8000000 for 9000
+ 31911 words of font info for 61 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  41i,7n,25p,1245b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.en
-c}<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texl
-ive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on chessReport.pdf (5 pages, 134268 bytes).
+{c:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on chessReport.pdf (5 pages, 140566 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

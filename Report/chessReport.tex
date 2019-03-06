@@ -9,12 +9,10 @@
 
 \author{\IEEEauthorblockN{Sarah Childs}
 	\IEEEauthorblockA{Brock University\\
-		Student 5491018\\
 		Email: sc15fv@brocku.ca}
 	\and
 	\IEEEauthorblockN{Matthew Grahlman}
 	\IEEEauthorblockA{Brock University \\
-		Student 5875695\\
 		Email: mg15tm@brocku.ca}}
 
 \maketitle
@@ -147,10 +145,6 @@ When considering the heuristic evaluation of the board configuration we decided 
 EVAL = \textit{(Current State value + (\# of Attackable Spaces for H/B) + (Summed weights of Capturable Pieces - Summed weights of Threatened pieces) + Center Influence) * Ratio of Black/White pieces} \\
 
 Each portion of the evaluation will be explained below.
--What it is
-- What its meant to do for AI
-- How its calculated
--Why I designed it
 
 \subsubsection{Current State}
 The \textit{Current State value} is the value of which the current state of the board has associated with it. Play is considered a neutral state so it has no influence over the AI, whereas Checkmate has a very high value associated with it to encourage the AI to steer towards it. Check is similar, however its value is much less of Checkmates to reflect the relationship between the two states. Stalemate however, is represented as a negative value because traditionally it is considered to be draw. A draw is not inherently good or bad, however winning is the better option so that is reflected by the value of stalemate. 
@@ -171,10 +165,6 @@ This was designed to encourage the AI to look at itself, and how it's currently 
 
 This was calculated by checking each piece in the AI's team to see if they could move to a space with an opponent piece on it, or if an opponent piece could move to their position on the board. Each time either of those was true it added the weight of the threatened piece to the corresponding sum. 
 
-\subsubsection{Center Influence}
-Hi
-\subsubsection{Ratio of Pieces}
-you
 
 \section{Known Bugs}
 The following is a list of known bugs in the project and our potential solutions to fix them. These solutions were not implemented or tested due to time limits. 
@@ -184,7 +174,5 @@ When using the Rook to checkmate the opponent it is possible for a checkmate to 
 
 \subsection{AI Move Coordinates}
 This is not a bug, however it is a feature left over from testing that was not able to be completed in time. As it did not effect the gameplay we decided to leave it. When the AI outputs its chosen move coordinates the row value is displayed in numbers, rather than letters like the player's input requires. 
-
-\section{Conclusion}
-what we learned from this project? How we would better design our heuristics in the future?\\
+\\
 \end{document}
